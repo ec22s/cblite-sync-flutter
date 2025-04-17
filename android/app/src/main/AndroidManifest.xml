@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.couchbase.flutter_cblite_userprofile_sync">
+    package="com.ec22s.cblite_sync_flutter_test">
    <application
-        android:label="flutter_cblite_userprofile_sync"
+        android:label="cblite_sync_flutter_test"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

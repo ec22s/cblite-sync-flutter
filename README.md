@@ -1,3 +1,66 @@
+# cblite-sync-flutter
+A simple app to sync data with Couchbase server and client
+
+original: https://github.com/couchbaselabs/flutter_cblite_userprofile_sync
+
+<br>
+
+<img width=256 src=https://github.com/user-attachments/assets/72f5c86c-1b1f-4692-bd03-e029ff51078d>
+　<img width=256 src=https://github.com/user-attachments/assets/ac600b5c-c818-4927-b165-95bdf4db9b1b>
+　<img width=256 src=https://github.com/user-attachments/assets/3840d990-577d-44cc-8ca7-84845e48a82a>
+
+<br>
+<br>
+
+### 動作確認 (アプリ起動と端末内データ保存まで)
+```
+$ flutter doctor
+Doctor summary (to see all details, run flutter doctor -v):
+[!] Flutter (Channel [user-branch], 3.22.3, on macOS 14.7.1 23H222 darwin-x64, locale en-JP)
+    ! Flutter version 3.22.3 on channel [user-branch] at /usr/local/Caskroom/flutter/3.29.2/flutter
+      Currently on an unknown channel. Run `flutter channel` to switch to an official channel.
+      If that doesn't fix the issue, reinstall Flutter by following instructions at https://flutter.dev/docs/get-started/install.
+    ! Upstream repository unknown source is not a standard remote.
+      Set environment variable "FLUTTER_GIT_URL" to unknown source to dismiss this error.
+[✓] Android toolchain - develop for Android devices (Android SDK version 36.0.0)
+[✓] Xcode - develop for iOS and macOS (Xcode 16.2)
+[✓] Chrome - develop for the web
+[✓] Android Studio (version 2024.3)
+[✓] VS Code (version 1.99.2)
+[✓] Connected device (6 available)
+[✓] Network resources
+
+! Doctor found issues in 1 category.
+```
+
+✅ macOS 14.7.1 (x64)
+
+✅ iOS 15.8.4 (実機: iPhone7)
+
+✅ iOS 18.2.1 (実機: iPad 10th)
+
+✅ Android 10 (実機: HUAWEI PLE-701L, LineageOS 17.1)
+
+<br>
+
+### 補足
+
+- アプリ名は `flutter_cblite_userprofile_sync` (オリジナルのまま)
+
+- iOS端末でのアプリ起動時、LAN接続を許可するか確認モーダルが出る
+
+- 起動時に任意の `Username` `Password` を設定し、次画面でユーザ情報を設定する. その情報が端末に保存される
+
+- macOSでのプロフィール画像操作は未完 (画像選択ダイアログ開かず)
+
+- サーバとのデータ同期には [Couchbase Capella](https://cloud.couchbase.com) の設定が必要、今後やる
+
+<br>
+
+以下、オリジナルのREADME
+
+---
+
 # Quickstart for Couchbase Lite Data Sync with Flutter
 
 #### Build a Flutter App with Couchbase Lite
