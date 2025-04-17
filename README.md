@@ -3,9 +3,16 @@ A simple app to sync data with Couchbase server and client
 
 original: https://github.com/couchbaselabs/flutter_cblite_userprofile_sync
 
-ここに画像を挿入
+<br>
 
-### 動作確認環境
+<img width=256 src=https://github.com/user-attachments/assets/72f5c86c-1b1f-4692-bd03-e029ff51078d>
+　<img width=256 src=https://github.com/user-attachments/assets/ac600b5c-c818-4927-b165-95bdf4db9b1b>
+　<img width=256 src=https://github.com/user-attachments/assets/3840d990-577d-44cc-8ca7-84845e48a82a>
+
+<br>
+<br>
+
+### 動作確認 (アプリ起動と端末内データ保存まで)
 ```
 $ flutter doctor
 Doctor summary (to see all details, run flutter doctor -v):
@@ -25,10 +32,6 @@ Doctor summary (to see all details, run flutter doctor -v):
 
 ! Doctor found issues in 1 category.
 ```
-
-<br>
-
-### アプリ起動と端末内データ保存まで確認
 
 ✅ macOS 14.7.1 (x64)
 
